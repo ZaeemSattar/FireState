@@ -1,0 +1,3 @@
+include ':firestatus'
+include ':app'
+rootProject.name = "AndroidNetworkStatus"
