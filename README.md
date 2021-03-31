@@ -4,8 +4,8 @@
  
 
 <h1 align="center">Hello there! My name is Zaeem Sattar 👋🤓</h1>
-<h2 align="center">& i am the author of FireState a micro network state observer library 🚀😎</h2>
-<h2 align="center">& i bet you this will make your life easier 🥳🤝</h2>
+<h2 align="center">i am the author of FireState a Kotlin Coroutine based Micro Network State Observer Library for Android 🚀😎</h2>
+<h2 align="center">i bet you this will make your life easier 🥳🤝</h2>
 
 
 <h1 align="center">Who I AM ? 👀</h1>
