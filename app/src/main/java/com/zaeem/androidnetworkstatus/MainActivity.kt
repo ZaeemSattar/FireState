@@ -22,5 +22,6 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Network is back!!", Toast.LENGTH_SHORT).show()
             else Toast.makeText(this, "Network gone :(", Toast.LENGTH_SHORT).show()
         })
+
     }
 }

@@ -1,7 +1,10 @@
 package com.zaeem.firestatus
 
 
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import java.io.IOException
+import java.net.InetAddress
 import java.net.InetSocketAddress
 import javax.net.SocketFactory
 
@@ -16,5 +19,21 @@ class PingNetwork : IPingNetwork {
         } catch (e: IOException) {
             false
         }
+    }
+
+    override suspend fun ping(): Boolean {
+        return withContext(Dispatchers.IO)
+        {
+            try {
+                val ipAddr: InetAddress = InetAddress.getByName("google.com")
+                !ipAddr.equals("")
+            } catch (e: IOException) {
+                false
+            }
+
+
+        }
+
+
     }
 }
